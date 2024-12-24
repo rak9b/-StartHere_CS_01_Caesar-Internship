@@ -1,0 +1,26 @@
+
+Functionality:
+
+The script prompts the user to input a message and a shift value (from 1 to 25).
+It then encrypts the message using the caesar_cipher function and prints the result.
+After that, the script decrypts the encrypted message using the caesar_decipher function and prints the decrypted result to verify the correctness.
+Interactive:
+
+The user can input different messages and shifts to see how the Caesar cipher works in real time.
+This is ideal for demonstrating how the encryption and decryption processes work with varying inputs.
+
+
+Running the Demo:
+To run the demo, use the following command in your terminal:
+
+( bash )
+python examples/demo.py
+
+
+*Example Interaction:*
+( yaml )
+
+Enter message to encrypt: Hello, World!
+Enter shift value (1-25): 3
+Encrypted message: Khoor, Zruog!
+Decrypted message: Hello, World!
